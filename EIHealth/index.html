@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>EIHEalth (EIH)</title>
+  <link rel="icon" href="img/logo_transp.png" type="image/icon type">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="style.css">
+<!--  <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+</head>
+<body>
+
+<section class="main-header">
+  <div class="overlay">
+    <div class="container">
+      <header>
+        <div class="logo"><img src="img/logo_transp.png" style="width: 80px; height: 70px;" alt=""/><span>EIHealth</span></div>
+      </header>
+      <div class="content">
+        <div class="content-wrapper">
+          <h2 class="blob">We are Committed to Your Health</h2>
+          <div class="button-wrapper">
+            <a href="#appointment"><div class="button work">Make An Appointment<span><i class="fa fa-arrow-down"></i></span></div></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="how-it-works">
+  <div class="container">
+    <div class="slug">Making an appointment only takes a few minutes</div>
+    <div class="title">How does it work?</div>
+    <div class="content" style="text-align: justify;">How to make an appointment? You can either give us a call or you can conveniently book your appointment online through a straightforward form on our website. Choose the option that works best for you, and let us take care of the rest.</div>
+    <div class="icon-wrapper">
+        <div class="icon"><i class="fa fa-comments"></i>
+            <p>Talk to an expert</p>
+        </div>
+      <div class="icon"><i class="fa fa-question"></i>
+        <p>Ask Your Question</p>
+      </div>
+      <div class="icon"><i class="fa fa-heart"></i>
+        <p>Have a better life</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="signup" style="height: 400px;">
+  <a id="appointment" style="color: white;"><div class="title">Make an appointment right now!</div></a>
+  <div class="content">Making a dental appointment is easy and convenient. Don't wait any longer, book your appointment today and take the first step towards a healthy smile!</div>
+  <div class="button-wrapper">
+    <button id="show" onclick="show()">Contact Us</button>
+  </div><br>
+  
+<div id="forma" style="width: 960px; max-width: 90%; margin: 0 auto; text-align: center; display:none;">
+  <div class="alert">Your message has been sent</div>
+  <form id="contactForm" action="" method="post">
+    <div>
+      <input placeholder="Email id" type="email" id="inputEmail" name="Email" required>
+    </div>
+    <div>
+      <input placeholder="Your Name" type="name" id="inputName" name="Name" required>
+    </div>
+    <div>
+      <input placeholder="Your Age" type="number" id="inputAge" name="Age" required>
+    </div>
+    <div>
+      <input type="text" id="inputAddress" placeholder="Your Address" name="Address" required>
+    </div>
+    <div>
+      <input type="text" id="inputCity" placeholder="Your City" name="City" required>
+    </div>
+    <div>
+      <input type="text" id="inputPhone" placeholder="Phone Number" name="Phone" required>
+    </div>
+    <div>
+      <textarea id="message" name="Message" rows="4" placeholder="Message"></textarea>
+    </div>
+    <div>
+        <input id="my-date-picker" name="Date and Time" type="datetime-local" required>
+    </div>
+    <div>
+      <button type="submit">Send</button>
+    </div>
+  </form>
+</div>
+</section>
+
+<section class="footer">
+  <div class="container">
+    <div class="col-wrapper">
+      <div class="col-1">
+        <div class="logo"><img src="img/logo_transp.png" alt=""/><span>EIHealth</span></div>
+      </div>
+      <div class="col-1">
+        <ul>
+          <li><a class="header" href="">More info</a></li>
+          <li><a href="">About EIHealth</a></li>
+          <li><a href="">Terms and Condition</a></li>
+          <li><a href="">Frequently asked Questions</a></li>
+        </ul>
+      </div>
+      <div class="col-1">
+        <ul>
+          <li><a class="header" href="">Contact Us</a></li>
+          <li><a href="">eihealthba@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="col-1">
+        <ul>
+          <li><a class="header" href="">Medical Advisor</a></li>
+          <li><a href="">Dashboard</a></li>
+          <li><a href="">Become one</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="social-media">
+  <div class="container">
+    <div class="social-wrapper">
+      <div class="copyright">Copyright &copy; 2023</div>
+      <div class="icons"><i class="fa fa-instagram"></i><i class="fa fa-twitter"></i></div>
+      <div class="slug"><span>Made with Love By</span><img src="img/logo_transp.png" alt=""/></div>
+    </div>
+  </div>
+</section>
+<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

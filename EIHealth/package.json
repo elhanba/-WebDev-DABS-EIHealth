@@ -1,0 +1,11 @@
+{
+  "name": "d-a-b-s",
+  "version": "1.0.0",
+  "description": "Doctor Appointment Booking System",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Izeta-Hena-Elhan",
+  "license": "ISC"
+}
